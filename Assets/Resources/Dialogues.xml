@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueCollection>
+  <Dialogues>
+    <Dialogue id="1">
+      <Source>NPC1</Source>
+      <Text>Hey there I'm an NPC, you don't look like you're from around here</Text>
+      <Option1 destination="2">That's right, I come from far, far away</Option1>
+      <Option2 destination="3">I am actually from around here... &lt;Awkward&gt;</Option2>
+    </Dialogue>
+  <Dialogue id="2">
+      <Source>NPC1</Source>
+      <Text>Oh I see, I hope you have a wonderful stay then!</Text>
+      <Option1 destination="4">Thank you, do you have anything to eat? I'm starving...</Option1>
+      <Option2 destination="5">Thank you, do you know where I can find the closest inn to stay? I need some sleep...</Option2>
+    </Dialogue>
+  <Dialogue id="3">
+      <Source>NPC1</Source>
+      <Text>Oh I'm sorry, I have never seen you here before</Text>
+      <Option1 destination="6">No problem, I rarely get out of bed anyway aha</Option1>
+      <Option2 destination="7">That's because I'm always busy looking for an adventure!</Option2>
+    </Dialogue>
+    <Dialogue id="4">
+      <Source>NPC1</Source>
+      <Text>Sadly, I do not have any food, and I also need to get going. Great meeting you!</Text>
+      <Option1 destination="0">Too bad, see you next time!</Option1>
+      <Option2 destination="0">I know you have some food... I can smell it! Well bye then</Option2>
+    </Dialogue>
+    <Dialogue id="5">
+      <Source>NPC1</Source>
+      <Text>To find the closest Inn, go to where the sun leads you! I have to get going now, cya!</Text>
+      <Option1 destination="0">Alright, to the sun and beyond! Smell ya later</Option1>
+      <Option2 destination="0">Sun??? I see only a moon! Well bye then</Option2>
+    </Dialogue>
+    <Dialogue id="6">
+      <Source>NPC1</Source>
+      <Text>Sleeping really is a bliss, I have to get going now, goodnight!</Text>
+      <Option1 destination="0">Goodnight!</Option1>
+      <Option2 destination="0">Who said I'm going to sleep right now? I actually have plans... &lt;Lies&gt;</Option2>
+    </Dialogue>
+    <Dialogue id="7">
+      <Source>NPC1</Source>
+      <Text>Well, have fun with your adventure then. I need to get going, nice meeting you! </Text>
+      <Option1 destination="0">Thank you, nice meeting you too</Option1>
+      <Option2 destination="0">I need to get going aswell, I have a date very soon &lt;Lies&gt;</Option2>
+    </Dialogue>
+  </Dialogues>
+</DialogueCollection>
